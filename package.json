@@ -1,14 +1,32 @@
 {
-  "name": "svg-to-ttf",
+  "name": "@gsandf/svg-to-ttf",
   "version": "1.0.0",
   "description": "Bash script to take a directory of svgs and make them into a font for use with React Native",
   "main": "index.js",
-  "repository": "https://github.com/gsandf/svg-to-ttf.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsandf/svg-to-ttf.git"
+  },
   "author": "Blake Knight <bknight@gsandf.com>",
   "license": "MIT",
-  "bin": "./compile-fonts.sh",
+  "bin": {
+    "svg-to-ttf": "./compile-fonts.sh"
+  },
   "dependencies": {
     "svg2ttf": "^4.1.0",
     "svgicons2svgfont": "^7.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/gsandf/svg-to-ttf/issues"
+  },
+  "homepage": "https://github.com/gsandf/svg-to-ttf#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "fonts",
+    "react-native",
+    "ttf"
+  ]
 }
