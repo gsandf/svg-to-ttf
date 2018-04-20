@@ -48,11 +48,7 @@ main() {
 	local tmpFontFile="$(mktemp || exit 1)"
 
 	trap "{ rm -f ${tmpFontFile}; }" EXIT
-
-	echo $name
-	echo $inputSVGs
-	echo $config
-	echo $fontFile
+	
 	createConfiguration "$inputSVGs" > "$config"
 
 	svgicons2svgfont --fontname "$name" -o "$tmpFontFile" "$inputSVGs"
