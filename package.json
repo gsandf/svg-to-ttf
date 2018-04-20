@@ -1,6 +1,6 @@
 {
   "name": "@gsandf/svg-to-ttf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bash script to take a directory of svgs and make them into a font for use with React Native",
   "main": "index.js",
   "repository": {
