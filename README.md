@@ -4,7 +4,7 @@
 
 Add the script to your package.json under scripts for example
 
-    "fonts": "./compile-fonts.sh --name test --svgs 'resources/font-src/*.svg' --config src/components/Icon/config.json --font resources/fonts",
+    "fonts": "svg-to-ttf --name test --svgs 'resources/font-src/*.svg' --config src/components/Icon/config.json --font resources/fonts",
 
     --name || -n    The name of the font file that will be generated
     --svgs || -s    The folder containing the svgs you want included in the font
