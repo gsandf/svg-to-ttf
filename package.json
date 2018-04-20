@@ -6,5 +6,9 @@
   "repository": "https://github.com/gsandf/svg-to-ttf.git",
   "author": "Blake Knight <bknight@gsandf.com>",
   "license": "MIT",
-  "bin": "./compile-fonts.sh"
+  "bin": "./compile-fonts.sh",
+  "dependencies": {
+    "svg2ttf": "^4.1.0",
+    "svgicons2svgfont": "^7.0.2"
+  }
 }
