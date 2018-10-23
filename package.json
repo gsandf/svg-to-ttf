@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "svg2ttf": "^4.1.0",
-    "svgicons2svgfont": "^7.0.2"
+    "svgicons2svgfont": "^9.0.3"
   },
   "bugs": {
     "url": "https://github.com/gsandf/svg-to-ttf/issues"
